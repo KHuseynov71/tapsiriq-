@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0NVuuLQJVNbGuJiRL6RO2qaFR2F2r6e7o47z7ku0KAZvp+FV+sSMSX/+mL8yV1n4buAhnnFl2RTqE129Tt9VdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Yazdigim Tasklar\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

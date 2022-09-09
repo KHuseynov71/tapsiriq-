@@ -1,0 +1,16 @@
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.exe
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.deps.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.dll
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Project.pdb
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.dll
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.pdb
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Project\obj\Debug\netcoreapp3.1\Project.csproj.CopyComplete
