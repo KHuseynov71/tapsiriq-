@@ -45,14 +45,12 @@ namespace Project.Models
         }
         public static bool CheckLogin(List<User> users, string username )
         {
-            using (StreamReader sr = new StreamReader("C:\\Users\\LENOVO\\Desktop\\Yazdigim Tasklar\\Project\\Files\\Users.json"))
+            foreach (User item in users)
             {
-                users = JsonConvert.DeserializeObject<List<User>>(sr.ReadToEnd());
-            }
-            User user = users.Find(u => u.UserName == username );
-            if (user != null)
-            {
-                return true;
+                if (item.UserName == username)
+                {
+                    return true;
+                }
             }
             return false;
         }
@@ -91,10 +89,6 @@ namespace Project.Models
         }
         public static bool CheckPasword(List<User> users, string pasword)
         {
-            using (StreamReader sr = new StreamReader("C:\\Users\\LENOVO\\Desktop\\Yazdigim Tasklar\\Project\\Files\\Users.json"))
-            {
-                users = JsonConvert.DeserializeObject<List<User>>(sr.ReadToEnd());
-            }
             User user = users.Find(u => u.Pasword == pasword);
             if (user != null)
             {
@@ -102,8 +96,9 @@ namespace Project.Models
             }
             return false;
         }
-        public static bool ChechPaswordAvailability(List<User> users, string username)
+        public static bool ChechLoginAvailability(List<User> users, string username)
         {
+
             foreach (User item in users)
             {
                 if (item.UserName== username)
@@ -113,7 +108,19 @@ namespace Project.Models
             }
             return false;
         }
-
+        public static void OrederPizza(double lastpriace)
+        {
+            Console.WriteLine(lastpriace-1);
+            Console.Write("Zehmet olmasa Catdirilma unvani ve elaqe nomresi qeyd edin: ");
+            Console.ReadLine();
+            Console.WriteLine("Sifarisiniz hazirlanir.... Nus olsun .");
+        }
+        public static int StartAdminMenu(int chouse)
+        {
+            Console.WriteLine("1.Hamisina Bax\n2.Elave et\n3.Duzelis et\n4.Sil");
+            int.TryParse(Console.ReadLine(), out chouse);
+            return chouse;
+        }
     }
 }
 

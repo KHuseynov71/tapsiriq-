@@ -7,14 +7,9 @@ namespace Project.Models
     class Products
     {
         private static int _id;
-        public int Id { get; }
+        public int Id { get; set; }
         public string PizzaName { get; set; }
         public double Priaece { get; set; }
         public string PizzaInside { get; set; }
-        public Products()
-        {
-            _id++;
-            Id = _id;
-        }
     }
 }

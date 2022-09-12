@@ -6,7 +6,6 @@ namespace Project.Models
 {
     class User
     {
-        private static int _id;
         private string _pasword;
         public int Id { get; set; }
         public string Pasword
@@ -26,11 +25,6 @@ namespace Project.Models
         public string UserName { get; set; }
         public string Name { get; set; }
         public string SurName { get; set; }
-        public User()
-        {
-            _id++;
-            Id = _id;
-        }
-        
+        public bool Status { get; set; }
     }
 }
