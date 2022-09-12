@@ -51,7 +51,7 @@ namespace Project.Models
             foreach (User item in users)
             {
                 id= item.Id;
-                Console.WriteLine(item.Id+"." + "\nAd :" + item.UserName + " \nSoyad :" + item.SurName + "\nUsername :" + item.UserName + "\nStatus :" ); Status(users, id);
+                Console.Write(item.Id+"." + "\nAd :" + item.UserName + " \nSoyad :" + item.SurName + "\nUsername :" + item.UserName + "\nStatus :" ); Status(users, id);
             }
         }
         public static void Status(List<User> users, int id )
